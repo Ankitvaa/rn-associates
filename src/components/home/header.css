@@ -1,0 +1,29 @@
+header {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+}
+
+header nav a {
+    color: #fff;
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+a.active {
+    background: #14ff72cb;
+    border-radius: 2px;
+}
+
+a:hover {
+    background: #14ff72cb;
+    border-radius: 2px;
+}

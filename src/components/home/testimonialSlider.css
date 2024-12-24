@@ -1,0 +1,44 @@
+.slider-container {
+    /* width: 80%;
+    max-width: 1200px; */
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 50px 20px;
+}
+
+.slide {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slide img {
+    max-width: 50%;
+    border-radius: 10px;
+}
+
+.slide-content {
+    max-width: 45%;
+}
+
+.slide-content h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.slide-content p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.slide-content .author {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.slide-content .stars {
+    color: #f4b400;
+}
